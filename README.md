@@ -6,7 +6,7 @@ So here is simple node server which utilises  bitbns API to buy ADA everyday cau
 
 ### Installation
  - `npm i`
- - Create `.env` from `.env.example` with Public and private keys from Bitbns and also set `CRON_JOB_PATTERN`  and `AMOUNT` according to your preferences.
+ - Create `.env` from `.env.example` with Public and private keys from Bitbns and also set other keys according to your preferences.
  - `npm run start`
  
  ### Feel free to sponsor me!
