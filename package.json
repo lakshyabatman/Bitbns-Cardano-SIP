@@ -1,0 +1,17 @@
+{
+  "name": "bitbns-cardano-sip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bitbns": "^3.0.14",
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0"
+  }
+}
