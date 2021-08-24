@@ -26,6 +26,8 @@ app.post("/", (req,res) => {
     return res.status(401).json({message: 'Unauth'})
 })
 
-app.listen(3000)
+app.listen(3000 ,() => {
+    console.log("Server running")
+})
 
 
