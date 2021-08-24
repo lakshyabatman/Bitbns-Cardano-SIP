@@ -3,6 +3,7 @@ const { buyCrypto } = require('./buyCrypto');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
+require('dotenv').config()
 
 app.use(bodyParser.json());
 // var task = cron.schedule(process.env.CRON_JOB_PATTERN, () => {
